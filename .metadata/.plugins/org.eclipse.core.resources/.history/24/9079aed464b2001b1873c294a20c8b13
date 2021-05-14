@@ -1,0 +1,39 @@
+package checkpoint2;
+
+import java.util.Scanner;
+
+public class Menu {
+
+             int number;    
+		
+		    Scanner sc = new Scanner(System.in);
+            
+            Convert convert = new Convert();
+            Rectangle rectangle = new Rectangle();
+            Circle circle = new Circle();
+            
+            public void calc(int number) {
+                switch  (number) {
+                   case 1:
+                	  System.out.println("Digite 1 para converter celsius e 2 converter farenheigth");
+                	  int decision = sc.nextInt();
+                	  convert.decision = decision;
+                	  System.out.println("Digite o valor que deseja converter");
+                	  double temperature = sc.nextDouble();
+                	  convert.temperature = temperature;
+                	  convert.verficate(decision, temperature);
+                	  break;
+                   case 2:
+                  	 System.out.print("Qual valor da altura");
+                  	 double height = sc.nextDouble();
+                  	 rectangle.setHeigth(heigth);
+                
+                            
+                
+                  }	
+                         
+                
+                }
+             
+            
+}

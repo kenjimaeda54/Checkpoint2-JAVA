@@ -1,0 +1,30 @@
+package checkpoint2;
+
+public class Average {
+	 double value1;
+	 double value2;
+	 double value3;
+	 double results;
+	 
+	 protected double  grades(double value1,double value2,double value3) {
+	      this.results = (value1 + value2+value3) /3;  	  
+		  return results;
+	 }
+	
+	 protected     check() {
+	        switch(this.results):
+	        	case results <  5:
+	        		System.out.print("Aluno reprovado");
+	        	    break;
+	        	case results >= 5 && results < 6:
+	        		System.out.print("Prova substituide");
+	        	    break;
+	        	
+	        	default:
+	        		System.out.println("Aprovado");
+	 }
+	 
+	 
+	
+	
+}

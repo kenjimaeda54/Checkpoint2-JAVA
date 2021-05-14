@@ -1,0 +1,22 @@
+package checkpoint2;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		 Scanner sc = new Scanner(System.in);
+         
+		 Average average = new Average();
+	     
+	     System.out.println("Entre com as tres notas do aluno");
+	     Double  grades = sc.nextDouble();
+	  
+	   
+				 
+				 
+				 
+         sc.close();
+	}
+
+}

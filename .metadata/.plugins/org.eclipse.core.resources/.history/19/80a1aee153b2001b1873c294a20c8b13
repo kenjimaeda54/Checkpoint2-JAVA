@@ -1,0 +1,23 @@
+package checkpoint2;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		 Scanner sc = new Scanner(System.in);
+          
+	     Convert math = new Convert();			 
+	      
+	     System.out.println("Se deseja converter para celsius digite 1 ou 2 para fahrenheit");
+	     int option = sc.nextInt();
+	     System.out.println("Qual é o valor que você deseja converter ");
+	     double value = sc.nextDouble();
+	     math.verficate(option, value);
+				 
+				 
+				 
+         sc.close();
+	}
+
+}

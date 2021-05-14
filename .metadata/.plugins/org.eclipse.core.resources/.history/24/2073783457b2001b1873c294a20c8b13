@@ -1,0 +1,15 @@
+package checkpoint2;
+
+public class Math {
+	 double value1;
+	 double value2;
+	 double value3;
+	 double results;
+	 
+	 protected double  grades(double value1,double value2,double value3) {
+	      this.results = (value1 + value2+value3) /3;  	  
+		  return results;
+	 }
+	
+
+}

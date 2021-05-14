@@ -1,0 +1,38 @@
+package checkpoint2;
+
+public class Convert {
+	double temperature;
+	double  results;
+	int decision;
+	
+	
+	
+	
+	protected  void verficate(int decision, double temperature ){
+		if(decision == 1) {
+	       this.celsius(temperature); 		
+		}else if(decision == 2   ) {
+		   this.fahrenheit(temperature);	
+		}else {
+		   System.out.println("Valor não existe");	
+		}
+	}
+
+
+
+	private void celsius(double temperature) {
+	    this.results =  this.temperature * 1.8 + 32;
+	    System.out.println("Valor convertido em celsiu para fahrenheit é%.2f"+results); 
+		
+	}
+	private void fahrenheit(double temperature) {
+	    this.results =  (this.temperature -32) * 5/9;
+	    System.out.println("Valor convertido  fahrenheit para celsius é%.2f"+results); 
+		
+	}
+	
+	
+	
+	
+
+}

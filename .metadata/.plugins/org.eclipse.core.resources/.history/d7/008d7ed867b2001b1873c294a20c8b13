@@ -1,0 +1,31 @@
+package checkpoint2;
+
+import java.lang.Math;
+
+public class Circle {
+	   private double radius;
+       private  double field;
+
+ 
+        
+        
+		private double getRadius() {
+			return radius;
+		}
+		
+		protected void setRadius(double radius) {
+			this.radius = radius;
+		}
+		
+
+	
+        
+        protected  void   field(){
+        	 this.field = (radius*radius)*Math.PI; 
+        	 System.out.println("Sua area é"+this.field);
+        	
+        }
+	    
+    
+	
+}

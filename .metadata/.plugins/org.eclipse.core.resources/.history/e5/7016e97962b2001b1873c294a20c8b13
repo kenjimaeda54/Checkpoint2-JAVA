@@ -1,0 +1,54 @@
+package checkpoint2;
+
+import java.lang.Math; 
+
+public class Geometric {
+	        double radius;
+	        double field;
+	        double basis;
+	        double heigth;
+	 
+	        
+	        
+			public double getRadius() {
+				return radius;
+			}
+			
+			public void setRadius(double radius) {
+				this.radius = radius;
+			}
+			
+		
+			public double getHeigth() {
+				return heigth;
+			}
+			
+			public void setHeigth(double heigth) {
+				this.heigth = heigth;
+			}
+			
+			public double getBasis() {
+				return basis;
+			}
+			
+			public void setBasis(double basis) {
+				this.basis = basis;
+			}
+		     
+			
+	        
+	        
+	        private  void   field(){
+	        	 this.field = (this.radius*this.radius)*Math.PI; 
+	        	 System.out.println("Sua area é"+this.field);
+	        	
+	        }
+		    
+	        private  void rectangle() {
+	            this.field =  this.basis*this.height;
+	            System.out.println("O valor da área é "+this.field);
+	        }
+		
+	            
+
+}

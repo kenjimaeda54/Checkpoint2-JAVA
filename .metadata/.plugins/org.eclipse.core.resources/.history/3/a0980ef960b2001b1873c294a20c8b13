@@ -1,0 +1,31 @@
+package checkpoint2;
+
+import java.lang.Math; 
+
+public class Geometric {
+	        double radius;
+	        double field;
+			public double getRadius() {
+				return radius;
+			}
+			public void setRadius(double radius) {
+				this.radius = radius;
+			}
+		
+
+	        
+	        
+	        
+	        protected  void   field(double radius);{
+	        	 this.field = (radius*radius)*Math.PI; 
+	        	 System.out.printl("Sua are é"+this.field  );
+	        	
+	        }
+	            raio = input.nextInt();
+	            
+	            area = pi *(raio*raio);
+	            
+	         System.out.println("O valor da area é " + area);  
+
+
+}
