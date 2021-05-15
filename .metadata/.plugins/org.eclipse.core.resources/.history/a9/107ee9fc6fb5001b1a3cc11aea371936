@@ -1,0 +1,16 @@
+package checkpoint2;
+
+import java.lang.Math;
+
+public class OurMethod {
+	private String[]  selection = {"animal","carro","dinheiro","avião"};
+	private int number;
+	
+	private  chosseComputer() {
+	   this.number =  Math.random();
+		
+	}		
+	
+	
+
+}

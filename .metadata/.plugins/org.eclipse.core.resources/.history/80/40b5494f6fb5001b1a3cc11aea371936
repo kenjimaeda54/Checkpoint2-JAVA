@@ -1,0 +1,10 @@
+package checkpoint2;
+
+public class OurMethod {
+	private int selection = ["animal","carro","dinheiro","avião"];
+	
+			
+	
+	
+
+}

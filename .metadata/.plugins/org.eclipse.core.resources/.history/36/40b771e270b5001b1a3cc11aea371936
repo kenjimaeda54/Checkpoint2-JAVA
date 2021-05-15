@@ -1,0 +1,34 @@
+package checkpoint2;
+
+import java.lang.Math;
+
+public class OurMethod {
+	private String[]  selection = {"animal","carro","dinheiro","avião"};
+	private double number;
+	private int  chosse;
+	private int  option;
+	}
+
+	private int getOption() {
+		return option;
+	}
+
+	protected void setOption(int option) {
+		this.option = option;
+	}
+	
+	private int  chosseComputer(){
+		this.number =      Math.floor(Math.random()*3);
+		this.chosse =  (int)number;
+		return this.chosse;
+	}
+    
+	private int   winLose() {
+    	 System.out.prinln(this.chosse)
+    	
+    }	
+	
+	
+	
+
+}

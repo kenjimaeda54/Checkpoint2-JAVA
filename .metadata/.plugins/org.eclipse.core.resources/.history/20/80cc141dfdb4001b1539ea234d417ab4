@@ -1,0 +1,28 @@
+package checkpoint2;
+
+public class AverageSpeed {
+     private double distance;
+     private double time;
+     private double speed;
+    
+     
+     private double getDistance() {
+		return distance;
+	}
+	public void setDistance(double distance) {
+		this.distance = distance;
+	}
+	private double getTime() {
+		return time;
+	}
+	public void setTime(double time) {
+		this.time = time;
+	}
+     
+    protected String Average(double distance,double time) {
+    	this.speed = distance/time;
+    	return "Velocidade media foi:"+this.results;
+    }  
+	
+	
+}

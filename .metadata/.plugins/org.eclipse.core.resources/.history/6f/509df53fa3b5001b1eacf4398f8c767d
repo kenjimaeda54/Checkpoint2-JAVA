@@ -1,0 +1,33 @@
+package checkpoint2;
+
+
+import java.util.Random;
+
+public class OurMethod {
+	private String[]  selection = {"animal","carro","dinheiro","avião"};
+	private double number;
+	private int  option;
+	
+
+	private int getOption() {
+		return option;
+	}
+
+	protected void setOption(int option) {
+		this.option = option;
+	}
+	
+	private int  chosseComputer(){
+		this.number =  new Random().nextInt(4);
+		return number;
+	}
+    
+	public void   winLose() {
+    	 System.out.println(this.number);
+    	 
+    }	
+	
+	
+	
+
+}

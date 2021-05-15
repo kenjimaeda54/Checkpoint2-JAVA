@@ -1,0 +1,23 @@
+package checkpoint2;
+
+public class summation {
+	 private int number;
+     private int initial;
+     private int results; 
+	 
+	private int getNumber() {
+		return number;
+	}
+
+	protected void setNumber(int number) {
+		this.number = number;
+	}
+	 
+	protected   colletions() {
+		for(initial=0;number == 0; initial++) {
+			this.results -= number - intial;
+			
+		}
+	}
+
+}
